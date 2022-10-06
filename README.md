@@ -3,6 +3,10 @@ Bu repo Kodluyoruz Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde
 
 ## Installation
 Öncelikle projeyi clonelayın.
+
 '''
 https://github.com/Tansuuu/kodluyoruzilkrepo.git
 '''
+
+cd kodluyoruzilkrepo
+code .
