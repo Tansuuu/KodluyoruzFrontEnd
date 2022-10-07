@@ -7,9 +7,9 @@ Bu repo [patika.dev](www.patika.dev) platformu GİT dersleri için oluşturulmu�
 
 ## Ödevin amacı
 
-*GitHub'da repo oluşturmak.
-*GitHub'da oluşturulan repoyu bilgisayara almak.
-*Repo üzerinde değişiklik yaparak tekradan GitHub'a göndermek.
+-GitHub'da repo oluşturmak.
+-GitHub'da oluşturulan repoyu bilgisayara almak.
+-Repo üzerinde değişiklik yaparak tekradan GitHub'a göndermek.
 
 ## Installation
 
