@@ -5,9 +5,6 @@ Bu repo Kodluyoruz Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde
 
 Link : https://github.com/Tansuuu/kodluyoruzilkrepo.git
 
-'''pyhton
-print("Hello Word")
-'''
 
 ## Usage
 
