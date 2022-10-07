@@ -14,17 +14,17 @@ Bu repo [patika.dev](www.patika.dev) platformu GİT dersleri için oluşturulmu�
 ## Installation
 
 Ilk olarak repoyu bilgisayarınıza klonlayın.
-'
+`
 git clone https://github.com/Tansuuu/kodluyoruzilkrepo.git
-'
+`
 
 ## Usage
 
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
-'
+`
 cd kodluyoruzilkrepo
 code .
-'
+`
 
 ## Contributing
 
