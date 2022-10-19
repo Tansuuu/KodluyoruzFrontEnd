@@ -1,7 +1,7 @@
 .main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2px;
     grid-template-areas: "header header header"
                         "container1 container1 container1"
                         "container2 container3 container4"
@@ -26,6 +26,7 @@
     grid-area: container2;
     background-color: rgb(126, 229, 218);
     text-align: center;
+    padding: 6px;
 }
 .container3 {
     grid-area: container3;
