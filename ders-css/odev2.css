@@ -1,0 +1,53 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: "header header header"
+                        "container1 container1 container1"
+                        "container2 container3 container4"
+                        "footer footer footer"
+    ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header {
+    grid-area: header;
+    text-align: -webkit-center;
+}
+.container1 {
+    grid-area: container1;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+.container1 input {
+    width: 25%;
+}
+.container2 {
+    grid-area: container2;
+    background-color: rgb(126, 229, 218);
+    text-align: center;
+}
+.container3 {
+    grid-area: container3;
+    background-color: rgb(112, 204, 194);
+    text-align: center;
+}
+.container4 {
+    grid-area: container4;
+    background-color: rgb(82, 177, 166);
+    text-align: center;
+}
+.footer {
+    grid-area: footer;
+    text-align: center;
+}
+h5 {
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
