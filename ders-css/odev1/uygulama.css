@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 50px;
+    color: gray;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.section1 {
+    background-image: url(https://shreethemes.in/upstart/layouts/images/bg/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.container1 {
+    /* position: absolute; */
+    padding: 150px;
+    margin-left: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+}
+
+p {
+    color: gray;
+}
+
+button {
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    background-color: orangered;
+    border: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(168, 45, 0) ;
+}
+
+.section2 {
+    background-color: #f8f9fc;
+}
+
+.container2 {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    height: 800px;
+    justify-content: center;
+}
+
+.story-box {
+    width: 500px;
+}
+
+h4 {
+    color: orangered;
+}
+
+.services-box {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 200px;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.services-box2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.services-box2 h3:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.logo-back {
+    width: 85px;
+    height: 85px;
+    background-color: rgba(255,87,20,0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 6px 4px rgb(214, 214, 214);
+    -moz-box-shadow: 0 0 6px 4px rgb(214, 214, 214);
+    box-shadow: 0 0 6px 4px rgb(214, 214, 214);
+}
+
+.box span {
+    margin-top: 30px;
+    color: orangered;
+}
+
+.box h5:hover {
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.services-box3 {
+    text-align: center;
+    margin: 100px;
+    margin-top: 100px;
+}
+
+.services-box4 {
+    display: flex;
+    gap: 50px;
+    height: 900px;
+    justify-content: center;
+}
+
+.box2 {
+    text-align: right;
+    width: 500px;
+}
+
+.box3 {
+    width: 0,1px;
+    height: 800px;
+    border-style: dashed;
+    border-color: #aaaaaa;
+    border-width: 1px;
+}
+
+.box4 {
+    text-align: left;
+    width: 500px;
+}
+
+.section4 {
+    background-color: #f8f9fc;
+    height: 800px;
+}
+
+.contact-box {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-box2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+form {
+    padding: 10px;
+    width: 700px;
+    margin: 10px;
+    margin-left: 40px;
+    padding-right: 0;
+}
+
+.form {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(36 39 44 / 15%);
+}
+
+form input {
+    width: 306px;
+    height: 26px;
+    border-color: rgb(36 39 44 / 15%);
+    border-width: 1px;
+    color: gray;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+textarea {
+    border-color: rgb(36 39 44 / 15%);
+    color: gray;
+    border-radius: 4px;
+    width: 650px;
+    margin-left: 10px;
+}
+
+.input662px {
+    width: 650px;
+}
+
+.form {
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* .top {
+    border-radius: 100%;
+    background-color: orangered;
+    width: 40px;
+    height: 40px;
+    color: white;
+} */
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #2f333a;
+    height: 80px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+footer p {
+    padding-left: 300px;
+}
+
+.portfolio-box {
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.portfolio-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.portfolio-box2 img {
+    border-radius: 10px;
+    height: 200px;
+}
+
+.section5 {
+    background-color: #f8f9fc;
+    height: 1273x;
+}
+
+.portfolio-box3 {
+    background-image: url(https://shreethemes.in/upstart/layouts/images/bg/cta.png);
+    height: 250px;
+    background-position: center;
+    margin-top: 100px;
+    text-align: center;
+    padding: 70px;
+}
+
+.portfolio-box2 img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.pricing-box {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.pricing-box2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box5 {
+    width: 300px;
+    height: 350px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    padding: 30px;
+}
+
+.box5:hover {
+    -webkit-box-shadow: 0 0 6px 4px rgb(214, 214, 214);
+    -moz-box-shadow: 0 0 6px 4px rgb(214, 214, 214);
+    box-shadow: 0 0 6px 4px rgb(214, 214, 214);
+    transform: translate(0,-10px);
+}
+
+.box5 button {
+    width: 300px;
+    border-radius: 5px;
+    color: rgb(248, 73, 9);
+    background-color: rgba(255,87,20,0.1);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 87, 20, 0.11);
+}
+
+.box5 button:hover {
+    color: white;
+    background-color: orangered;
+}
+
+.int-big {
+    font-size: 40px;
+}
+
+.container6 {
+    height: 800px;
+}
+
+.team-box {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.team-box2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.team-box2 img {
+    border-radius: 10px;
+    height: 261px;
+}
+
+.team-box2 img:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.section7 {
+    background-color: #f8f9fc;
+    height: 850px;
+}
+
+.team-box3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.team-box4 img {
+    width: 75px;
+    height: 25px;
+}
+
+.team-box4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.container8 {
+    height: 800px;
+}
+
+.blogs-box {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.blogs-box2 img {
+    width: 350px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blogs-box2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.box6 {
+    width: 350px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    border-width: 1px;
+}
+
+.box7 {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.box7 h5:hover {
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box7 h3:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.top {
+    background-color: orangered;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    position: fixed;
+}
+
+.top span {
+    color: white;
+    padding: 8px;
+}
+
+.box8 {
+    padding-top: 20px;
+}
