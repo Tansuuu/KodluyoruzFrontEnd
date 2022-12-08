@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Uygulama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form id="userForm">
+                <label for="username" class="form-label">Kullanıcı Adı:</label>
+                <input type="text" name="username" id="username" class="form-control">
+
+                <label for="score" class="form-label">Not Bilgisi:</label>
+                <input type="number" name="score" id="score" class="form-control">
+
+                <div id="alert"></div>
+
+                <button type="submit" class="btn btn-success mt-3">Gönder</button>
+            </form>
+        </div>
+        <div class="row mt-5">
+            <ol id="userList" class="list-group">
+            </ol>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
