@@ -21,9 +21,9 @@
 
 // ---------------------------- SORU 3 ----------------------------
 
-let dizi = [2, 3, 4]
-function carpimIslemi (akumulator, sayi) {
-    return akumulator * sayi;
-}
-const sonuc = dizi.reduce(carpimIslemi, 1);
-console.log(sonuc)
+// let dizi = [2, 3, 4]
+// function carpimIslemi (akumulator, sayi) {
+//     return akumulator * sayi;
+// }
+// const sonuc = dizi.reduce(carpimIslemi, 1);
+// console.log(sonuc)
