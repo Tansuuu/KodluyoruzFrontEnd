@@ -24,4 +24,4 @@ const otuzYearPerson = person.filter(item => item.age > 30);
 console.log(otuzYearPerson);
 
 const JSPerson = person.filter(item => item.languages.includes("JavaScript"))
-console.log(JSPerson);
+console.log(JSPerson); 
