@@ -108,3 +108,8 @@ input {
 .button:hover {
   background-color: #bbb;
 }
+
+.patika {
+  position: absolute;
+  bottom: 0;
+}
