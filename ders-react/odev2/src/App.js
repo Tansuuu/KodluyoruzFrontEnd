@@ -1,11 +1,11 @@
 import "./App.css";
-import Contacts from "./components/Contacts";
+import Todo from "./components/Todo";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Contacts />
+      <Todo />
       <Footer />
     </div>
   );
