@@ -25,6 +25,12 @@ function Footer({ todos, clearTodos, setFilteredTodos }) {
     setStatus(e.target.text);
   };
 
+  const hiddenButton = () => {
+    const checkAllCompleted = todos.every((todo) => !todo.completed);
+    return checkAllCompleted ? "hidden" : "";
+  };
+
+  if (todos.length === 0) return null;
   return (
     <footer className="footer">
       <span className="todo-count">
@@ -50,7 +56,10 @@ function Footer({ todos, clearTodos, setFilteredTodos }) {
         </li>
       </ul>
 
-      <button className="clear-completed" onClick={clearTodos}>
+      <button
+        className={`clear-completed ${hiddenButton()}`}
+        onClick={clearTodos}
+      >
         Clear completed
       </button>
     </footer>

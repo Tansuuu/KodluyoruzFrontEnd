@@ -2,7 +2,7 @@ import React from "react";
 
 function List({ todos, setTodos, filteredTodos }) {
   const deleteHandler = (todo) => {
-    setTodos(todos.filter((i) => i.id !== todo.id));
+    setTodos(todos.filter((e) => e.id !== todo.id));
   };
 
   const completedHandler = (todo) => {
@@ -16,10 +16,10 @@ function List({ todos, setTodos, filteredTodos }) {
     );
   };
 
-  const editHandler = (todo) => {
-    const selectedItem = todos.find((i) => i.id === todo.id);
-    console.log(selectedItem);
-  };
+  // const editHandler = (todo) => {
+  //   const selectedItem = todos.find((e) => e.id === todo.id);
+  //   console.log(selectedItem);
+  // };
 
   const toggleAll = () => {
     setTodos(
@@ -53,8 +53,8 @@ function List({ todos, setTodos, filteredTodos }) {
                 onChange={() => completedHandler(todo)}
               />
               <label
-                htmlFor={`todo-${todo.id}`}
-                onClick={() => editHandler(todo)}
+              // htmlFor={`todo-${todo.id}`}
+              // onClick={() => editHandler(todo)}
               >
                 {todo.text}
               </label>

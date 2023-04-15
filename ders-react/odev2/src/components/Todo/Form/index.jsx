@@ -16,6 +16,7 @@ function Form({ inputText, setInputText, todos, setTodos }) {
     ]);
     setInputText("");
   };
+
   return (
     <header className="header">
       <h1>todos</h1>
